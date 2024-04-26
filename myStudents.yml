@@ -1,0 +1,16 @@
+---
+- myStud:
+  - name:
+      firstname: amit
+      lastname: tandon 
+    phn: 9413513206
+    address: blr
+  
+  - name: sumit
+    phn: 9876543289
+    address: hyd
+
+  - name: rohit
+    phn: 987654567
+    address: del
+  
