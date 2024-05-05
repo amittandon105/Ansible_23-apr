@@ -14,3 +14,4 @@
       state: present
     when: ansible_os_family=="RedHat"
 
+# ansible engine always gives more priority to Host vars than group vars
