@@ -13,3 +13,9 @@
     copy: 
       src: mytestfile.yml
       dest: /home/maha/myfolder
+
+  - name: i want to download internet file
+    get_url:
+         url: https://downloads.apache.org/tomcat/tomcat-10/v10.1.23/bin/apache-tomcat-10.1.23-windows-x86.zip
+         dest: /home/maha/myfolder/apache-tomcat-10.1.23-windows-x86.zip
+         force_basic_auth: yes
